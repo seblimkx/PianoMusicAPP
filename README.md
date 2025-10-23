@@ -7,11 +7,11 @@
 ---
 
 ## 📋 Table of Contents
-A. [Details](#a-details)
+- ## [Details](#a-details)
   - [Description](#description)
   - [Features](#features)
   - [KeyBinds](#keybinds)
-B. [Instructions](#b-instructions)
+- ## [Instructions](#b-instructions)
   - [Run Default Program](#run-default-program)
   - [Run Test](#run-test)
 
