@@ -47,7 +47,7 @@ A full fledge piano octave that is designed with beautiful graphics which engage
 
 ## 🚀 B. Instructions
 
-### ▶️ Run Default Program
+### Run Default Program
 ```bash
 clang++ main_music.cpp utilities.cpp -o main -lSplashKit
 ./main
