@@ -1,8 +1,8 @@
 # 🎹 PIANO MUSIC APP
 
 **Author:** Lim Khai Xiang  
-**Version:** v3  
-**Date:** 24 / 10 / 2025
+**Version:** v9
+**Date:** 27 / 10 / 2025
 
 ---
 
@@ -23,7 +23,8 @@
 A piano app that is tailored for digital use and can be run through C++ language and SplashKit and Standard libraries.
 
 ### ✨ Features
-A full fledge piano octave that is designed with beautiful graphics which engages users interaction and learning attributes. The piano keys and notes ranges from the natural chords of C, D, E, F, G, A, B and the sharp and flat chords of C#, D#, F#, G#, A#.
+A full fledge piano octave that is designed with beautiful graphics which engages users interaction and learning attributes. The piano keys and notes ranges from the natural chords of C, D, E, F, G, A, B and the sharp and flat chords of C#, D#, F#, G#, A#. This program also has a recording a playback
+feature where the user can save and load the recordings.
 
 ### ⌨️ KeyBinds
 
@@ -47,14 +48,15 @@ A full fledge piano octave that is designed with beautiful graphics which engage
 
 ## 🚀 B. Instructions
 
-### Run Default Program
+### Run Through Terminal
 ```bash
-clang++ main_music.cpp utilities.cpp -o main -lSplashKit
-./main
+./run.bat
+```
+```bash
+clang++ src/main_music.cpp src/piano_core.cpp src/recording.cpp src/playback.cpp src/file_io.cpp src/state_management.cpp src/gui_logic.cpp src/gui.cpp -l SplashKit -o piano
 ```
 
-### Run Test
-```bash
-skm clang++ catch_amalgamated.cpp test.cpp utilities.cpp -o test
-./test
+### Run From File Explorer
+```folder
+double click run.bat folder
 ```
