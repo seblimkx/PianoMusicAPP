@@ -1,7 +1,7 @@
 # 🎹 PIANO MUSIC APP
 
 **Author:** Lim Khai Xiang  
-**Version:** v9
+**Version:** v9.0.0
 **Date:** 27 / 10 / 2025
 
 ---
